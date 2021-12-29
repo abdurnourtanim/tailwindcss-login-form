@@ -1,0 +1,20 @@
+{
+  "name": "login-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/style.css -o ./styles/style.css -w"
+  },
+  "keywords": [],
+  "author": "Abdur Nour Tanim",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0"
+  }
+}

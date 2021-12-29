@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <img
+        class="fixed hidden lg:block inset-0 h-full"
+        style="z-index: -1"
+        src="./img/wave.png"
+        alt="bg-wave"
+      />
+      <div
+        class="
+          w-screen
+          h-screen
+          flex flex-col
+          justify-center
+          items-center
+          lg:grid lg:grid-cols-2
+        "
+      >
+        <img
+          class="
+            hidden
+            lg:block
+            w-1/2
+            hover:scale-150
+            transition-all
+            duration-500
+            transform
+            mx-auto
+          "
+          src="./img/unlock.svg"
+          alt="unlock"
+        />
+        <form class="flex flex-col justify-center items-center w-1/2">
+          <img class="w-32" src="./img/avatar.svg" alt="avatar" />
+          <h2 class="my-8 font-display font-bold text-3xl text-gray-700">
+            Welcome to our site
+          </h2>
+          <div class="relative">
+            <i class="fas fa-user absolute text-yellow-500 text-xl"></i>
+            <input
+              class="
+                pl-8
+                border-b-2
+                font-display
+                capitalize
+                text-lg
+                focus:outline-none focus:border-yellow-500
+                transition-all
+                duration-500
+                outline-none
+              "
+              type="text"
+              placeholder="username"
+            />
+          </div>
+          <div class="relative mt-8">
+            <i class="fas fa-lock absolute text-yellow-500 text-xl"></i>
+            <input
+              class="
+                pl-8
+                border-b-2
+                font-display
+                capitalize
+                text-lg
+                focus:outline-none focus:border-yellow-500
+                transition-all
+                duration-500
+                outline-none
+              "
+              type="password"
+              placeholder="password"
+            />
+          </div>
+          <a class="self-end mt-4 text-gray-600 font-bold" href="#"
+            >Forgat password?</a
+          >
+          <a
+            class="
+              py-3
+              px-20
+              bg-yellow-500
+              rounded-full
+              text-white
+              font-bold
+              uppercase
+              text-lg
+              mt-4
+              transform
+              hover:translate-y-1
+              transition-all
+              duration-500
+            "
+            href="#"
+            >Login</a
+          >
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
