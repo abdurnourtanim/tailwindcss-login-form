@@ -1,2 +1,3 @@
 # tailwindcss-login-form
-# doanload or clone this repository and run # npm install or # yarn add
+## download or clone this repository
+## run # npm install ## or # yarn add
